@@ -33,5 +33,34 @@ where Employee.department_id = 4
 
 question 6
 
-(query)
+select product_id, product_name, price, stock_quantity
+from Product
+where product_name like '%chair%'
 
+![question 6 image result](/img/question_6.png)
+
+question 7
+
+select order_id, employee_id, product_id, order_date, quantity
+from Purchase
+where employee_id in ('1','3','5')
+
+![question 7 image result](/img/question_7.png)
+
+question 8
+
+select order_id, 
+
+![question 8 image result](/img/question_8.png)
+
+question 9
+
+select order_id,
+
+![question 9 image result](/img/question_9.png)
+
+question 10
+
+select order_id, 
+
+![question 10 image result](/img/question_10.png)
