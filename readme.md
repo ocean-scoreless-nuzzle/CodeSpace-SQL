@@ -4,7 +4,7 @@ question 1
 
 select employee_id, employee_name, department_id, hire_date, salary from Employee
 
-! [question 1 image result](/img/question_1.png)
+![question 1 image result](/img/question_1.png)
 
 question 2
 
