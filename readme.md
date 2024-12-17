@@ -66,7 +66,7 @@ where hire_date > '2022-03-01' and salary > 60000
 
 question 10
 
-select Employee.department_id, department_name, count(employee_id) as "toatal employs"
+select Employee.department_id, department_name, count(employee_id) as "total employs"
 from Department
 INNER JOIN Employee on (Employee.department_id = Department.department_id)
 GROUP BY Employee.department_id HAVING COUNT(employee_id) > 1
